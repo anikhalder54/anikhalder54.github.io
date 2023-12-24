@@ -19,7 +19,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <button className='bg-neutral-100 dark:bg-neutral-900 dark:text-neutral-100 py-2 px-3 rounded-full w-10 h-10 absolute' onClick={toggleDarkMode}>
-          {darkMode? <BsToggleOn />:<BsToggleOff />}
+          {darkMode? <BsToggleOn size={25}/>:<BsToggleOff size={25}/>}
         </button>
       </main>
     </div>
